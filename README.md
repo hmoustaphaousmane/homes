@@ -45,6 +45,7 @@ src
 
 - [Node.js](https://nodejs.org/) ≥ 18.19.1
 - [Angular CLI](https://angular.io/cli) ≥ 19.2.5
+- [json-server]
 
 ### Installation
 
@@ -61,7 +62,19 @@ src
    npm install
    ```
 
-3. **Run the development server**
+3. **Install json-server**
+
+   ```bash
+   npm install -g json-server
+   ```
+
+4. **Launch json-server**
+
+   ```bash
+   json-server --watch db.json
+   ```
+
+5. **Run the development server**
 
    ```bash
    ng serve --open
