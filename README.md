@@ -26,6 +26,7 @@ src
 │   ├── angular.svg             # Angular logo
 │   ├── location-pin.svg        # Icon for map pin
 │   └── logo.svg                # Application logo
+│   └── screenshots             # Apps screenshots
 ├── favicon.ico
 ├── index.html
 ├── main.ts                     # Bootstraps the Angular app
@@ -81,6 +82,16 @@ src
    ```
 
    The app will launch at `http://localhost:4200/`.
+
+## App preview (screenshots)
+
+1. Home page
+
+   ![Homepage](./src/assets/screenshots/home.png)
+
+2. Details page
+
+   ![Details page](./src/assets/screenshots/detail.png)
 
 ## Application Flow
 
